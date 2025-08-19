@@ -49,9 +49,9 @@ console.log(run1 === run2);
 
 //6-задание
 
-let x = 8;
+let x4 = 8;
 
-let condition1 = ((x % 2 === 0 || x % 3 === 0) && x % 6 !== 0);
+let condition1 = ((x4 % 2 === 0 || x4 % 3 === 0) && x4 % 6 !== 0);
 
 console.log(condition1);
 
