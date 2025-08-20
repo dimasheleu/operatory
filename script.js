@@ -2,6 +2,10 @@
 a = 10
 b = 5
 c = 2
+
+result0 = a + b + c;
+console.log(result0)
+
 result1 = b - (a + c);
 console.log(result1);
 
@@ -32,7 +36,7 @@ let a1 = 10;
 let b1 = 4;
 let c1 = 2;
 
-console.log(a1 > b1 > 0);
+console.log(a1 > b1 && b1 > 0);
 console.log(c > 10 || c1 === 2);
 console.log(a1 / c1 !== 5);
 
@@ -59,5 +63,5 @@ let y = 12;
 
 let condition2 = !(y > 10 || y < 5);
 
-console.log(condition2); // false для 12
+console.log(condition2);
 
